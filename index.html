@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Fonts: Poppins -->
+    <!-- Fonts: Poppins :: https://fonts.google.com/specimen/Poppins--> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -27,10 +27,10 @@
 </head>
 
 <body>
-    <header>
-        <nav class="nav flex flex-col md:flex-row md:justify-between md:items-center md:px-24 py-7">
+    <header class="bg-gradient-to-r from-sky-500 to-indigo-100 h-screen">
+        <nav class="nav flex flex-col items-center md:flex-row md:justify-between md:items-center md:px-24 py-7">
             <h1 class="font-black text-xl">Go Ride</h1>
-            <ul type="none" class="flex flex-col md:flex-row md:justify-between md:items-center md:w-1/2 lg:w-1/3">
+            <ul type="none" class="flex flex-col items-center md:flex-row md:justify-between md:items-center md:w-1/2 lg:w-1/3">
                 <li>Home</li>
                 <li>Shop</li>
                 <li>News</li>
@@ -40,15 +40,24 @@
                 </li>
             </ul>
         </nav>
-        <section class="banner ">
-            <h1 class="text-6xl font-bold">
-                Keep Your Ride Safe <br>
-                At Every Time
-            </h1>
-            <p class="font-light">
-                Bikerz zone is a safe and secure ride sharing platform that provides you with the best.
-            </p>
-            <div class="btn btn-error md:px-10">Purchase</div>
+        <section class="banner flex p-4 md:p-24 md:flex-col mt-10">
+            <div class=" ">
+                <h1 class="text-6xl font-bold py-7">
+                    Keep Your Ride Safe <br>
+                    At Every Time
+                </h1>
+                <p class="font-light py-5">
+                    Bikerz zone is a safe and secure ride sharing platform that provides you with the best.
+                </p>
+                <div class="py-2">
+                    <button class="btn btn-error md:px-10">
+                        Purchase
+                    </button>
+                </div>
+            </div>
+            <!-- <div class="">
+
+            </div> -->
         </section>
     </header>
     <main>
